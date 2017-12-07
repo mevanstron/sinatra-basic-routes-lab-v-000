@@ -5,4 +5,8 @@ class App < Sinatra::Base
     status = 200
     "My name is Michael."
   end
+
+  get '/hometown' do
+
+  end
 end
